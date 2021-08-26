@@ -1,0 +1,72 @@
+body {
+font-size: 16px;
+color: black;
+
+}
+
+/* header */
+
+#navbar-header {
+    background-color: white;
+    border-radius: 0;
+    text-decoration: none;
+    border-bottom: solid black;
+    position: relative;
+  
+}
+
+.navbar-brand {
+    padding: 5px;
+}
+
+.navbar-brand {
+    font-size: 1.6em;
+    color: black;
+    text-decoration: none;
+}
+
+#nav-header a:focus,  #nav-header a:hover {
+    text-decoration: none;  
+}
+
+#navbarNav {
+    text-align: center;
+}
+
+
+
+/* end of header*/
+
+/* content */
+
+#main-content {
+    text-align: center;
+    padding: 15px;
+}
+
+#chicken, #beef, #sushi {
+    background-color: gray;
+    padding: 15px 30px;
+    margin-bottom: 15px;
+    width: 100%;
+    position: relative;
+}
+
+#main-content h2{
+    padding-bottom: 15px;
+}
+
+/* end of main content*/
+
+/********** NOT LARGE devices only **********/
+@media (max-width: 991px){
+    .navbar-brand h1 {
+        font-size: 5vw;
+    }
+
+    .navbar-nav {
+        border-top: solid black;
+    }
+}
+
+/********** LARGE devices only **********/
